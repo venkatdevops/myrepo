@@ -7,13 +7,6 @@
       <mkdir dir="d1"/>
         <mkdir dir="d2"/>
    </target>
-
-</project>
-
-
-
-<project name="test" default="create"  basedir=".">
-
    <target name="create" depends="delete">
       <mkdir dir="d1"/>
         <mkdir dir="d2"/>
@@ -26,5 +19,9 @@
 <delete dir="d2"/>
 </target>
 
+   
 
 </project>
+
+
+
